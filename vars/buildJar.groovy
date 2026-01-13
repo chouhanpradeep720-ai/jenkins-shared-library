@@ -1,5 +1,5 @@
 #!/user/bin/env groovy
 def call() {
     echo "building a jar..."
-   sh 'mvn package'
+   sh 'mvn clean package'
 }
